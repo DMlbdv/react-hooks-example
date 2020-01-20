@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "http://DMlbdv.github.io/react-hooks-example/static/css/main.fe2e226b.chunk.css",
-    "main.js": "http://DMlbdv.github.io/react-hooks-example/static/js/main.74929f05.chunk.js",
-    "main.js.map": "http://DMlbdv.github.io/react-hooks-example/static/js/main.74929f05.chunk.js.map",
-    "runtime-main.js": "http://DMlbdv.github.io/react-hooks-example/static/js/runtime-main.b4e874cc.js",
-    "runtime-main.js.map": "http://DMlbdv.github.io/react-hooks-example/static/js/runtime-main.b4e874cc.js.map",
-    "static/js/2.55a8dc52.chunk.js": "http://DMlbdv.github.io/react-hooks-example/static/js/2.55a8dc52.chunk.js",
-    "static/js/2.55a8dc52.chunk.js.map": "http://DMlbdv.github.io/react-hooks-example/static/js/2.55a8dc52.chunk.js.map",
-    "index.html": "http://DMlbdv.github.io/react-hooks-example/index.html",
-    "precache-manifest.836a45e4cd592509d3ecfb04cf355870.js": "http://DMlbdv.github.io/react-hooks-example/precache-manifest.836a45e4cd592509d3ecfb04cf355870.js",
-    "service-worker.js": "http://DMlbdv.github.io/react-hooks-example/service-worker.js",
-    "static/css/main.fe2e226b.chunk.css.map": "http://DMlbdv.github.io/react-hooks-example/static/css/main.fe2e226b.chunk.css.map",
-    "static/js/2.55a8dc52.chunk.js.LICENSE": "http://DMlbdv.github.io/react-hooks-example/static/js/2.55a8dc52.chunk.js.LICENSE"
+    "main.css": "https://dmlbdv.github.io/react-hooks-example/static/css/main.fe2e226b.chunk.css",
+    "main.js": "https://dmlbdv.github.io/react-hooks-example/static/js/main.cdc165f3.chunk.js",
+    "main.js.map": "https://dmlbdv.github.io/react-hooks-example/static/js/main.cdc165f3.chunk.js.map",
+    "runtime-main.js": "https://dmlbdv.github.io/react-hooks-example/static/js/runtime-main.c8b0fe94.js",
+    "runtime-main.js.map": "https://dmlbdv.github.io/react-hooks-example/static/js/runtime-main.c8b0fe94.js.map",
+    "static/js/2.55a8dc52.chunk.js": "https://dmlbdv.github.io/react-hooks-example/static/js/2.55a8dc52.chunk.js",
+    "static/js/2.55a8dc52.chunk.js.map": "https://dmlbdv.github.io/react-hooks-example/static/js/2.55a8dc52.chunk.js.map",
+    "index.html": "https://dmlbdv.github.io/react-hooks-example/index.html",
+    "precache-manifest.0ba4db9e8390642d074900e56f4cd07e.js": "https://dmlbdv.github.io/react-hooks-example/precache-manifest.0ba4db9e8390642d074900e56f4cd07e.js",
+    "service-worker.js": "https://dmlbdv.github.io/react-hooks-example/service-worker.js",
+    "static/css/main.fe2e226b.chunk.css.map": "https://dmlbdv.github.io/react-hooks-example/static/css/main.fe2e226b.chunk.css.map",
+    "static/js/2.55a8dc52.chunk.js.LICENSE": "https://dmlbdv.github.io/react-hooks-example/static/js/2.55a8dc52.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.b4e874cc.js",
+    "static/js/runtime-main.c8b0fe94.js",
     "static/js/2.55a8dc52.chunk.js",
     "static/css/main.fe2e226b.chunk.css",
-    "static/js/main.74929f05.chunk.js"
+    "static/js/main.cdc165f3.chunk.js"
   ]
 }
