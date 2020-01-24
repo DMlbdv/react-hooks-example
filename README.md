@@ -13,21 +13,7 @@ I should be able to select a city from a list and see:
 
 `$ npm install`
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
-Runs the app in the development mode and starts fake API server.<br />
+Runs the app in the development mode<br />
 Open [http://localhost:1337](http://localhost:1337) to view it in the browser.`
-
-## API
-
-city list:
-
-`http://localhost:3000/city-list`
-
-Get data for a city:
-
-`http://localhost:3000/city-data/<id>`
