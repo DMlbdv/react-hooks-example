@@ -1,10 +1,10 @@
 {
-  "homepage": "http://DMlbdv.github.io/react-hooks-example",
-  "name": "react-hooks-example",
+  "homepage": "https://dmlbdv.github.io/tech-sandbox",
+  "name": "tech-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "one task, diverse solutions",
   "main": "index.js",
-  "author": "D.lebbeddev",
+  "author": "D.Lebedev",
   "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -19,7 +19,7 @@
     "recharts": "^2.0.0-beta.1"
   },
   "scripts": {
-    "start": "react-scripts start | npx json-server --watch db.json",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -45,7 +45,20 @@
     "babel-eslint": "^10.0.3",
     "eslint-plugin-react": "^7.17.0",
     "gh-pages": "^2.2.0",
+    "husky": "^4.2.0",
     "jest": "^24.9.0",
-    "json-server": "^0.14.0"
+    "lint-staged": "^10.0.2",
+    "prettier": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
