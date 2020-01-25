@@ -3,9 +3,15 @@
  * @param  {number} id
  */
 export const getName = (list, id) => {
-    const { title } = list.find(item => item.id === id);
-    return title;
+    try {
+        const { title } = list.find(item => item.id === id);
+        return title;
+    } catch (error) {
+        throw 'Check args. provided to "getName" function';
+    }
 };
+
+export const zeroCondition = { min: null, max: null };
 
 /**
  * @param  {array} arr // for the sake of the test task: O(n).
