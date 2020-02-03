@@ -7,7 +7,7 @@ export const getName = (list, id) => {
         const { title } = list.find(item => item.id === id);
         return title;
     } catch (error) {
-        throw 'Check args. provided to "getName" function';
+        throw new Error('Check args. provided to "getName" function');
     }
 };
 
