@@ -1,8 +1,11 @@
+import ListItem from "../types/list-item";
+import CityInfo, {timeStamp} from "../types/city-info";
+
 /**
  * @param  {array} list
  * @param  {number} id
  */
-export const getName = (list, id) => {
+export const getName = (list: ListItem[], id: string): string => {
     try {
         const { title } = list.find(item => item.id === id);
         return title;
@@ -30,13 +33,13 @@ export const findMinMax = (arr = []) =>
                 max: val > max ? val : max
             };
         },
-        { min: null, max: null }
+        zeroCondition
     );
 
 /**
  * @param  {array} series
  */
-export const sortTimeSeries = (series = []) => {
+export const sortTimeSeries = (series: timeStamp[] = []): timeStamp[] => {
     return series.sort(
         ([time1], [time2]) =>
             new Date(time1).getTime() - new Date(time2).getTime()
