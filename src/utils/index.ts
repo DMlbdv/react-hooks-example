@@ -5,7 +5,7 @@ import CityInfo, {timeStamp} from "../types/city-info";
  * @param  {array} list
  * @param  {number} id
  */
-export const getName = (list: ListItem[], id: string): string => {
+export const getName = (list: [ListItem], id: string): string => {
     try {
         const { title } = list.find(item => item.id === id);
         return title;
